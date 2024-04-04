@@ -35,7 +35,7 @@ export default function MobileHeader() {
 
   const menuClose=()=>{
     grayLayer.current.style.display='none'
-    gsap.to(menuWrap.current, {left:'-70vw', duration:0.5, ease:'power1.out',
+    gsap.to(menuWrap.current, {left:'-80vw', duration:0.5, ease:'power1.out',
         onComplete:()=>{
         menuWrap.current.style.display='none'
         gsap.set('body,html', {overflow:'visable'})
@@ -76,7 +76,7 @@ export default function MobileHeader() {
                   }}>
                     {item.subMenuList.length < 1 ?
                       <>
-                        {item.name}
+                        <Link to={item.path} onClick={menuClose}>{item.name}</Link>
                       </>
                       :
                       <>

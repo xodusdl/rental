@@ -36,12 +36,12 @@ div.mobile_location{
 }
 /* 아코디언 메뉴 */
 nav#mobilemenu{
-    width:70vw; 
-    height:100vh; 
+    width:80vw;
+    height:100vh;
     position:absolute; 
     left:0px; 
     top:0px; 
-    background:white; 
+    background:white;
     overflow:scroll;
     z-index:2;
 }
