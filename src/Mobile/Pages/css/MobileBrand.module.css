@@ -1,0 +1,70 @@
+section.brand{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+div.visual{
+    width: 100%;
+    height: 100px;
+    background:url('/public/images/brand_visual.jpg') no-repeat center center; 
+    background-size:cover;
+}
+div.visual p{
+    font: bold 18px/100px "Noto Sans KR";
+    color: #fff;
+    text-align: center;
+}
+div.title_box{
+    font: bold 16px/23px "Noto Sans KR";
+    padding: 0px 16px;
+    box-sizing: border-box;
+    margin: 40px 0px;
+}
+ul.brand_list{
+    width: 100%;
+    height: 340px;
+    margin-bottom: 40px;
+    padding: 0px 16px;
+    box-sizing: border-box;
+}
+ul.brand_list li{
+    width: 100%;
+    float: left;
+    height: 100px;
+    margin-bottom: 20px;
+    border: solid 1px #E7E9EB;
+    box-sizing: border-box;
+}
+ul.brand_list li:last-child{
+    margin-bottom: 0px;
+}
+div.img{
+    width: 100px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    float: left;
+}
+div.img img{
+    width: 40%;
+    height: 40%;
+    object-fit: contain;
+}
+div.text{
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:center;
+}
+p.text_title{
+    font: bold 16px/23px "Noto Sans KR";
+}
+p.text_text{
+    font: normal 12px/17px "Noto Sans KR";
+    color: #3C3C3C;
+}

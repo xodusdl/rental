@@ -1,0 +1,57 @@
+section.customer{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+div.visual{
+    width: 100%;
+    height: 100px;
+    background:url('/public/images/customer_visual.jpg') no-repeat center center; 
+    background-size:cover;
+}
+div.visual p{
+    font: bold 18px/100px "Noto Sans KR";
+    color: #fff;
+    text-align: center;
+}
+div.title_box{
+    font: bold 16px/23px "Noto Sans KR";
+    padding: 0px 16px;
+    box-sizing: border-box;
+    margin: 40px 0px;
+}
+ul.customer_list{
+    width: 100%;
+    height: 460px;
+    margin-bottom: 40px;
+    padding: 0px 16px;
+    box-sizing: border-box;
+}
+ul.customer_list li{
+    width: 100%;
+    height: 100px;
+    float: left;
+    height: 100px;
+    margin-bottom: 20px;
+}
+ul.customer_list li:last-child{
+    margin-bottom: 0px;
+}
+p.question{
+    font: bold 16px/40px "Noto Sans KR";
+    border: solid 1px #E7E9EB;
+    box-sizing: border-box;
+}
+p.question span{
+    color: #E25D6B;
+}
+p.answer{
+    font: normal 12px/24px "Noto Sans KR";
+    color: #3C3C3C;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+p.answer span{
+    font: bold 16px/24px "Noto Sans KR";
+    color: #4A705F;
+}

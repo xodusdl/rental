@@ -1,0 +1,53 @@
+section.customer{
+    width: 1280px;
+    min-height: 740px;
+    overflow: hidden;
+    margin: 0px auto;
+    min-width:768px;
+}
+div.title_box{
+    font: bold 40px/58px "Noto Sans KR";
+    padding: 0px 16px;
+    margin: 40px 0px;
+    box-sizing: border-box;
+}
+ul.customer_list{
+    width: 100%;
+    height: 640px;
+    margin-bottom: 40px;
+    padding: 0px 16px;
+    box-sizing: border-box;
+}
+ul.customer_list li{
+    width: 100%;
+    height: 145px;
+    margin-bottom: 20px;
+}
+ul.customer_list li:last-child{
+    margin-bottom: 0px;
+}
+p.question{
+    font: bold 18px/40px "Noto Sans KR";
+    border: solid 1px #E7E9EB;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+p.question span{
+    color: #E25D6B;
+}
+p.answer{
+    font: normal 14px/24px "Noto Sans KR";
+    color: #3C3C3C;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+p.answer span{
+    font: bold 16px/24px "Noto Sans KR";
+    color: #4A705F;
+}
+
+@media screen and (max-width: 1280px){
+    section.customer{
+        width: 100%
+    }
+}

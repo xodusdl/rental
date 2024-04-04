@@ -1,0 +1,32 @@
+section.banner{
+    width: 1280px;
+    height: 200px;
+    margin: 0px auto;
+    min-width:768px;
+    background:url('/public/images/banner.jpg') no-repeat center 0px;
+    background-size:cover;
+}
+div.text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font: bold 26px/38px "Noto Sans KR";
+    text-align: center;
+    color: #fff;
+    padding: 0px 30px;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 1280px){
+    section.banner{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 980px){
+    div.text{
+        font: bold 22px/34px "Noto Sans KR";
+    }
+}

@@ -1,0 +1,13 @@
+div.sub_visual{
+    width: 100%;
+    height: 300px;
+    background: #586B62;
+    /* background:url('/public/images/categorytVisual.jpg') no-repeat center center;  */
+    /* background-size:cover; */
+    margin-top: 70px;
+}
+p.title{
+    text-align: center;
+    font: bold 50px/300px "Noto Sans KR";
+    color: #fff;
+}

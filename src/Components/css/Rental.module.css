@@ -1,0 +1,66 @@
+section.renatal{
+    width: 1280px;
+    height: 700px;
+    margin: 0px auto;
+    min-width:768px;
+    overflow: hidden;
+}
+p.title{
+    width: 100%;
+    font: bold 30px/43px "Noto Sans KR";
+    margin-top: 84px;
+    text-align: center;
+}
+ul.renatal_info{
+    width: 100%;
+    height: 400px;
+    margin-top: 26px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+ul.renatal_info li{
+    width: 22.65%;
+    height: 100%;
+    border-top: solid 2px #2E463B;
+    box-sizing: border-box;
+    position: relative;
+    top:0;
+    left: 0;
+}
+div.box_title{
+    font: normal 26px/38px "Noto Sans KR";
+    color: #000;
+    position: absolute;
+    top: 60px;
+}
+p.text{
+    font: normal 14px/20px "Noto Sans KR";
+    color: #9A9C9A;
+    position: absolute;
+    top: 110px;
+}
+ul.renatal_info li img{
+    width: 89.65%;
+    height: 150px;
+    object-fit: cover;
+    position: absolute;
+    bottom: 16px;
+    right:0px;
+}
+
+@media screen and (max-width: 1280px){
+    section.renatal{
+        width: 100%
+    }
+}
+@media screen and (max-width: 980px){
+    div.box_title{
+        font: normal 24px/36px "Noto Sans KR";
+    }
+    p.text{
+        font: normal 12px/18px "Noto Sans KR";
+    }
+}

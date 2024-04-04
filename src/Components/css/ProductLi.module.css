@@ -1,0 +1,34 @@
+li.productLi{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top:0;
+    left: 0;
+}
+li.productLi img{
+    width: 100%;
+    height: 240px;
+    /* object-fit: cover; */
+    object-fit: contain;
+}
+p.bicycle_name{
+    height: 20px;
+    font: bold 16px/20px "Noto+Sans+KR";
+    margin: 4px 0px;
+}
+p.bicycle_explain{
+    height: 20px;
+    font: normal 12px/20px "Noto+Sans+KR";
+    color: #3C3C3C;
+}
+p.best_b{
+    width: 30px;
+    height: 14px;
+    background: #ff607a;
+    font: normal 12px/14px "Noto+Sans+KR";
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+}

@@ -1,0 +1,124 @@
+section.product{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+div.visual{
+    width: 100%;
+    height: 100px;
+    background:url('/public/images/category_visual.jpg') no-repeat center center; 
+    background-size:cover;
+}
+div.visual p{
+    font: bold 18px/100px "Noto Sans KR";
+    color: #fff;
+    text-align: center;
+}
+ul.category_menu{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+    font: normal 14px/40px "Noto Sans KR";
+    color: #000;
+    margin: 35px 0;
+    padding: 0px 16px;
+    box-sizing: border-box;
+}
+ul.category_menu li.selected{
+    border-bottom: solid 2px #F09AA5;
+    font-weight: bold;
+    color: #F09AA5;
+}
+ul.product_list{
+    padding: 0px 16px;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(5,1fr);
+    grid-gap: 15px;
+    margin-bottom: 35px;
+}
+ul.product_list li{
+    width: 100%;
+    height: 300px;
+}
+div.img{
+    width: 100%;
+    height: 160px;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    position: relative;
+    top: 0;
+    left: 0;
+    background: #fff;
+}
+div.img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+div.best{
+    width: 30px;
+    height: 22px;
+    background: #F09AA5;
+    font: normal 8px/22px "Noto Sans KR";
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top:10px;
+    left: 10px;
+}
+p.text{
+    font: normal 12px/17px "Noto Sans KR";
+    text-align: center;
+    margin-top: 14px ;
+}
+p.name{
+    font: bold 14px/20px "Noto Sans KR";
+    text-align: center;
+    margin-top: 10px;
+}
+div.click_box{
+    width: 70px;
+    height: 30px;
+    margin: 0px auto;
+    margin-top: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-between;
+}
+div.heart{
+    width: 30px;
+    height: 100%;
+    border-radius: 50%;
+    border: solid 1px #4A705F;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+div.heart img{
+    margin: 0px auto;
+}
+div.cart{
+    width: 30px;
+    height: 100%;
+    border-radius: 50%;
+    background: #4A705F;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+div.cart img{
+    margin: 0px auto;
+}

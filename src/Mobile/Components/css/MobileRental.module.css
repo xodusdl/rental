@@ -1,0 +1,69 @@
+section.rental{
+    width: 100%;
+    height: 470px;
+    overflow: hidden;
+    margin-top: 30px;
+    background: yellow;
+}
+p.title{
+    width: 100%;
+    font: bold 14px/20px "Noto Sans KR";
+    text-align: center;
+    margin: 20px 0;
+}
+ul.rental_box{
+    width: 100%;
+    height: auto;
+    padding: 16px;
+    box-sizing: border-box;
+}
+ul.rental_box li{
+    width: 100%;
+    height: 120px;
+    /* margin-bottom: 10px; */
+}
+div.rental_text{
+    width: 60%;
+    height: 100%;
+    /* background: orange; */
+    float: left;
+    padding: 0 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content:center; */
+    text-align: justify
+}
+div.rental_text p:nth-child(1){
+    font: bold 12px/22px "Noto+Sans+KR";
+}
+div.rental_text p:nth-child(2){
+    font: normal 12px/16px "Noto+Sans+KR";
+}
+ul.rental_box li:nth-child(1)>div.rental_img{
+    width: 40%;
+    height: 100%;
+    /* background: palevioletred; */
+    background:url('/public/images/ren00.jpg') no-repeat center center; 
+    background-size:cover;
+    float: left;
+    border-radius: 26px;
+}
+ul.rental_box li:nth-child(2)>div.rental_img{
+    width: 40%;
+    height: 100%;
+    background:url('/public/images/ren01.jpg') no-repeat center center; 
+    background-size:cover;
+    float: right;
+    border-radius: 26px;
+}
+ul.rental_box li:nth-child(3)>div.rental_img{
+    width: 40%;
+    height: 100%;
+    background:url('/public/images/ren02.jpg') no-repeat center center; 
+    background-size:cover;
+    float: left;
+    border-radius: 26px;
+}

@@ -1,0 +1,22 @@
+ul.categorymenu{
+    /* width: 800px; */
+    width: 62.5%;
+    height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px auto;
+    margin-bottom: 50px;
+}
+ul.categorymenu li.selected{
+    border-bottom: 2px solid #ff607a;
+    box-sizing: border-box;
+    font-weight: bold;
+    color: #ff607a;
+}
+ul.categorymenu li{
+    width: 14%;
+    text-align: center;
+    font: normal 14px/30px "Noto+Sans+KR";
+}
